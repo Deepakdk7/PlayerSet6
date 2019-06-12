@@ -1,0 +1,6 @@
+ax=input().split()
+k=int(ax[1])
+ax=int(ax[0])
+a=list(map(int,input().split()))
+a.sort()
+print(a[k-1])
