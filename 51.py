@@ -1,4 +1,4 @@
-ax=int(input())
+sx=int(input())
 a=list(map(int,input().split()))
 a.sort()
 b=list(dict.fromkeys(a))
